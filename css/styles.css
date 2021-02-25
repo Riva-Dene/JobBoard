@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+em {
+    color: #fafafa;
+}
+
+#title {
+    background-color: lightseagreen;
+    color: seashell;
+}
+
+/*Navbar*/
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    margin: 0 25px;
+    font-size: 1.2rem;
+}
+
+/*Title*/
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.phone-img {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    position: absolute;
+    transform: rotate(20deg);
+    right: 24%;
+    width: 23%;
+}
+
+/*Download Buttons*/
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+
+#features {
+    background-color: #fafafa;
+    padding: 10%;
+    position: relative;
+}
+
+.fas-feature {
+    margin-bottom: 0.7rem;
+    color: lightseagreen;
+}
+
+.fas:hover {
+    color: lightgreen;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-title {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/*Testimonials*/
+
+#testimonials {
+    background-color: lightseagreen;
+    text-align: center;
+    
+}
+
+.carousel-item {
+    padding: 7% 15% 5%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    color: #fafafa;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+/*Press*/
+
+#press {
+    background-color: lightseagreen;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.press-image {
+    width: 15%;
+}
+
+/*Pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 5% 3%;
+}
+
+
+#cta {
+    background-color: lightseagreen;
+    padding: 5% 0 10%;
+    text-align: center;
+}
+
+#cta h3 {
+    color: #fafafa;
+    font-size: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#footer {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.fas-footer {
+    padding: 0 1% 1.5%;
+}
+
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .phone-img {
+        margin-left: 0%;
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
